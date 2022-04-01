@@ -1,0 +1,555 @@
+
+/*Sohail CSS*/
+body,h1,h2,h3,h4,p,span,div,button,a, li,input{
+	font-family: 'Rubik', sans-serif;
+}
+.header{
+	padding: 40px 0px;
+}
+.logo{
+	cursor: pointer;
+}
+.wrapper{
+	width: 80%;
+	margin: 0 auto;
+}
+.wrapper100{
+	width: 100%;
+	margin: 0 auto;
+}
+.wrapper-row{
+	width: 100%;
+	display: flex;
+    justify-content: space-between;
+}
+.div40{
+	width: 40%;
+    margin: 0 0 0 auto;
+    align-self: center;
+}
+.div50{
+	width: 50%;
+	/*margin: 0 auto;*/
+}
+.sec1img1{
+	width: 100%;
+}
+.padding-top50{
+	padding-top: 50px;
+}
+.padding-bottom50{
+	padding-bottom: 50px;
+}
+.padding-topbottom50{
+	padding: 50px 0px;
+}
+.padding-topbottom80{
+	padding: 80px 0px;
+}
+.inlineBlock{
+	display: inline-block;
+}
+.topMenu{
+	float: right;
+}
+.topMenu ul{
+	list-style: none;
+	margin: 0px;
+}
+.topMenu ul li{
+	display: inline-block;
+}
+.topMenu ul li a{
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 14px;
+	color: #252b46;
+	padding: 14px 25px;
+	letter-spacing: 1.3px;
+}
+.topMenu ul li a.loginBtn{
+	background-color: #fa5757;
+	color: #fff;
+	border-radius: 5px;
+	box-shadow: 0px 1px 5px 0px #aaa;
+}
+.hamburgerIcon{
+	display: none;
+}
+.closeMenu{
+	background-color: #000;
+	display: none;
+}
+.section2 h2{
+	font-size: 48px;
+	color: #252b46;
+	margin: 50px 0px 30px;
+}
+.section2 p{
+	font-size: 19px;
+	color: #9194a1;
+	margin: 20px 0px 30px;
+	line-height: 1.5;
+}
+.btn{
+	border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.sec2btn1{
+	background-color:  #5368df;
+	color: #fff;
+	padding: 15px 25px;
+	margin-right: 20px;
+	font-weight: 600;
+}
+.sec2btn2{
+	background-color:  #f7f7f7;
+	color:#252b46;
+	padding: 15px 25px;
+	font-weight: 600;
+	box-shadow: 0px 2px 6px 0px #aaa;
+}
+.desktopdiv{
+	position: relative;
+}
+.section2 .roundDivbgblue{
+	background-color: #5368df;
+    width: 70%;
+    height: 60%;
+    border-radius: 100px 0px 0px 100px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.section3 .sec3div{
+	text-align: center;
+}
+.section3 h3{
+	font-size: 38px;
+    color: #252b46;
+    margin: 50px 0px 20px;
+}
+.section3 p{
+	font-size: 19px;
+    color: #9194a1;
+    margin: 20px 0px 30px;
+    line-height: 1.5;
+}
+.section4 .sec4div{
+	text-align: center;
+}
+.section4 .sec4div ul{
+	list-style: none;
+    width: 67%;
+    padding: 0px;
+    margin: 0 auto;
+    border-bottom: 1px solid #9194a1;
+}
+.section4 .sec4div ul li{
+	display: inline-block;
+    padding: 15px 30px 25px;
+    margin: 0px 40px 0px 0px;
+    color: #7a7d8b;
+    font-weight: 600;
+    cursor: pointer;
+}
+.section4 .sec4div ul li.active{
+	color: #252b46;
+	border-bottom: 4px solid #fa5757;
+}
+.section5 h2{
+	font-size: 48px;
+	color: #252b46;
+	margin: 50px 0px 30px;
+}
+.section5 p{
+	font-size: 19px;
+	color: #9194a1;
+	margin: 20px 0px 30px;
+	line-height: 1.5;
+}
+.section5 .roundDivbgblue{
+	background-color: #5368df;
+    width: 70%;
+    height: 100%;
+    border-radius: 0px 100px 100px 0px;
+    position: absolute;
+    left: 0;
+    bottom: -91px;
+    z-index: -1;
+}
+.sec5img1{
+	margin: 0px 0px 0px 50px; 
+}
+.section5 .sec5div40{
+	margin: 0 auto 0 0;
+}
+.section5 .sec2btn1,.section6 .sec2btn1{
+	background-color:  #5368df;
+	color: #fff;
+	padding: 15px 25px;
+	margin-right: 20px;
+	font-weight: 600;
+	box-shadow: 0px 2px 3px 0px #aaa;
+}
+.sec5row2{
+	display: none;
+}
+.sec5row3{
+	display: none;
+}
+.section6 .card{
+	width: 30%;
+    text-align: center;
+    border-radius: 15px;
+    padding: 30px 0px;
+    box-shadow: 0px 3px 2px 0px #aaa;
+    height: fit-content;
+}
+.section6 .card h3{
+	font-size: 28px;
+    color: #252b46;
+    margin: 20px 0px;
+}
+.section6 .card p{
+    font-size: 18px;
+    color: #9194a1;
+    margin: 0px 0px 30px;
+    line-height: 1.5;
+}
+.sec6img2dot{
+	width: 100%;
+	margin: 0px 0px 20px;
+}
+.section6 .card2{
+	margin-top: 40px;
+}
+.section6 .card3{
+	margin-top: 80px;
+}
+.sec7Div{
+	width: 60%;
+	margin: 0 auto;
+	border-top: 1px solid #9194a1;
+}
+.sec7Divlast{
+	border-bottom: 1px solid #9194a1;
+}
+.sec7Div .que h3{
+	display: inline-block;
+	font-size: 18px;
+    color: #252b46;
+}
+.sec7Div .que .faqImg{
+	float: right;
+    padding: 25px;
+}
+.sec7Div .que{
+	cursor: pointer;
+}
+.sec7Div .ans{
+	display: none;
+}
+.sec7Div .ans p{
+    font-size: 18px;
+    color: #9194a1;
+    margin: 0px 0px 30px;
+    line-height: 1.5;
+}
+.clearfix{
+	clear: both;
+}
+.getmoreDiv{
+	text-align: center;
+	padding: 50px 0px;
+}
+.section8{
+	background-color: #5368df;
+	padding: 50px 0px;
+}
+.sec8Div{
+	text-align: center;
+}
+.sec8Div p{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    font-size: 16px;
+}
+.sec8Div h3{
+	color: #fff;
+    font-size: 38px;
+}
+.emailInput{
+	padding: 10px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    width: 28%;
+    outline: none;
+}
+input.emailInput::-webkit-input-placeholder{
+	color: #9194a1;
+	font-size: 14px;
+}
+.emailBtn{
+	background-color: #fa5757;
+	color: #fff;
+	margin-left: 20px;
+}
+.msg p, p.validMsg{
+	font-size: 14px;
+	color: #fa5757;
+	text-transform: capitalize;
+	display: none;
+}
+
+
+.footer{
+	background-color: #252b46;
+	padding: 50px 0px;
+}
+.bottomMenu{
+	
+}
+.bottomMenu ul{
+	list-style: none;
+	margin: 0px;
+}
+.bottomMenu ul li{
+	display: inline-block;
+	cursor: pointer;
+}
+.bottomMenu ul li a{
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 14px;
+	color: #fff;
+	padding: 14px 25px;
+	letter-spacing: 1.3px;
+}
+.footer .logo svg{
+    margin: -6px;
+}
+.footer .logo path{
+	fill: #fff;
+}
+.footer .bottomMenuimg{
+	float: right;
+}
+.footer .bottomMenuimg img{
+	margin-left: 20px;
+	cursor: pointer;
+}
+
+/* If screen size is 375px wide, or less */
+@media screen and (max-width: 375px) {
+  .topMenu ul{
+  	display: none;
+  }
+  .hamburgerIcon{
+    display: inline-block;
+    margin-top: 23px;
+    cursor: pointer;
+  }
+  .closeMenu {
+    margin-top: 23px;
+    cursor: pointer;
+    float: right;
+  }
+  .div40,.div50 {
+    width: 100%;
+  }
+  .wrapper-row{
+  	flex-wrap: wrap;
+  }
+  .reverseformobile{
+  	flex-wrap: wrap-reverse;
+  	padding-top: 0px;
+  }
+  .section2 h2 {
+  	text-align: center;
+  	font-size: 28px;
+  }
+  .section2 p {
+    text-align: center;
+    font-size: 18px;
+    padding: 0px 20px;
+  }
+  .sec2btn1{
+  	margin-right: 2px;
+  }
+  .section3 .wrapper{
+  	padding: 0px;
+  }
+  .section3 h3 {
+    font-size: 28px;
+    margin: 50px 0px 20px;
+  }
+  .section3 p {
+    font-size: 18px;
+  }
+  .section4 .sec4div ul {
+    width: 100%;
+    border: none;
+  }
+  .section4 .sec4div ul li {
+  	border-bottom: 1px solid #9194a1;
+  	border-top: 1px solid #9194a1;
+  	display: block;
+  	margin: 0px;
+  }
+  .sec5img1{
+  	width: 100%;
+  	margin: 0px;
+  }
+  .section5 h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-top: 115px;
+  }
+  .section5 .div40{
+  	text-align: center;
+  }
+  .section6 .card {
+    width: 100%;
+  }
+  .sec7Div {
+    width: 100%;
+  }
+  .sec7Div .que h3, .sec7Div .ans p {
+    font-size: 12px;
+  }
+  .sec7Div .que .faqImg {
+    padding: 18px;
+  }
+  .sec8Div h3 {
+    font-size: 22px;
+  }
+  .emailInput {
+    margin-bottom: 15px;
+    width: 84%;
+  }
+  .emailBtn {
+  	margin: 0px;
+	width: 90%;  	
+  }
+  .footer{
+  	text-align: center;
+  }
+  .footer .logo, .bottomMenu ul li {
+  	margin-bottom: 20px;
+  }
+  .footer .bottomMenuimg {
+    float: none;
+  }
+
+
+}
+
+
+@media only screen and (min-device-width: 425px) and (max-device-width: 768px) {
+	.topMenu ul{
+  	display: none;
+  }
+  .hamburgerIcon{
+    display: inline-block;
+    margin-top: 23px;
+    cursor: pointer;
+  }
+  .closeMenu {
+    margin-top: 23px;
+    cursor: pointer;
+    float: right;
+  }
+  .div40,.div50 {
+    width: 100%;
+  }
+  .wrapper-row{
+  	flex-wrap: wrap;
+  }
+  .reverseformobile{
+  	flex-wrap: wrap-reverse;
+  	padding-top: 0px;
+  }
+  .section2 h2 {
+  	text-align: center;
+  	font-size: 28px;
+  }
+  .section2 p {
+    text-align: center;
+    font-size: 18px;
+    padding: 0px 20px;
+  }
+  .sec2btn1{
+  	margin-right: 2px;
+  }
+  .section3 .wrapper{
+  	padding: 0px;
+  }
+  .section3 h3 {
+    font-size: 28px;
+    margin: 50px 0px 20px;
+  }
+  .section3 p {
+    font-size: 18px;
+  }
+  .section4 .sec4div ul {
+    width: 100%;
+    border: none;
+  }
+  .section4 .sec4div ul li {
+  	border-bottom: 1px solid #9194a1;
+  	border-top: 1px solid #9194a1;
+  	display: block;
+  	margin: 0px;
+  }
+  .sec5img1{
+  	width: 100%;
+  	margin: 0px;
+  }
+  .section5 h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-top: 115px;
+  }
+  .section5 .div40{
+  	text-align: center;
+  }
+  .section6 .card {
+    width: 100%;
+  }
+  .sec7Div {
+    width: 100%;
+  }
+  .sec7Div .que h3, .sec7Div .ans p {
+    font-size: 12px;
+  }
+  .sec7Div .que .faqImg {
+    padding: 18px;
+  }
+  .sec8Div h3 {
+    font-size: 22px;
+  }
+  .emailInput {
+    margin-bottom: 15px;
+    width: 84%;
+  }
+  .emailBtn {
+  	margin: 0px;
+	width: 90%;  	
+  }
+  .footer{
+  	text-align: center;
+  }
+  .footer .logo, .bottomMenu ul li {
+  	margin-bottom: 20px;
+  }
+  .footer .bottomMenuimg {
+    float: none;
+  }
+}

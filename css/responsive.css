@@ -1,0 +1,86 @@
+/*Sohail Responsive CSS*/
+@media only screen and (max-device-width: 2880px) and (min-device-width:2600px){
+}
+@media only screen and (max-device-width: 2560px) and (min-device-width:2400px){
+    
+}
+@media only screen and (max-device-width: 1920px) and (min-device-width:1500px){
+   
+}
+@media only screen and (max-device-width: 1440px) and (min-device-width:1280px){
+}
+@media only screen and (max-device-width: 1080px) and (min-device-width:768px){
+        
+}
+@media only screen and (max-device-width: 425px) and (min-device-width:300px){
+	.section1 .logo {
+	    padding: 20px 0px 0px;
+	    text-align: center;
+	}
+	.section1 .menu ul {
+	    float: none;
+	}
+	.section1 .menu ul li {
+	    display: block;
+	    padding: 6px 8px;
+	    text-align: center;
+	}
+	.section1 .menu ul li a {
+		font-size: 14px;
+	}
+	.section1 .section1headlines .joinus {
+		font-size: 12px;
+		width: 100%;
+		padding: 8px 12px;
+		text-align: center;
+	}
+	.section1 .section1headlines .joinus img {
+		width: 16px;
+	}
+	.section2text .p2 {
+    	font-size: 24px;
+	}
+	.bannerBtn {
+    	font-size: 12px;
+	}
+	.feature .text p {
+    	font-size: 18px;
+	}
+	.section4 .text .p1 {
+    	font-size: 30px;
+	}
+	.section4 .text .p2 {
+    	font-size: 16px;
+    	padding: 0px 10px;
+	}
+	.section4Btn {
+    	font-size: 16px;
+	}
+	.section5 .text .p1 {
+    	font-size: 30px;
+	}
+	.colBg1, .colBg2{
+		margin-bottom: 20px;
+	}
+	.section5row2 .textbtm .p1 {
+    	font-size: 20px;
+	}
+	.section5row2 .textbtm .p2 {
+    	font-size: 16px;
+	}
+	.section6 .text .p1 {
+    	font-size: 30px;
+	}
+	.social img {
+    	width: 12%;
+	}
+	.footerlinks ul {
+    	text-align: left;
+	}
+	
+
+	
+
+
+
+}
